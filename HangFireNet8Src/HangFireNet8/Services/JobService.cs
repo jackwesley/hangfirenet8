@@ -7,11 +7,13 @@ namespace HangFireNet8.Services
         public int SumNumber(int numA, int numB)
         {
             int result = numA + numB;
+            Thread.Sleep(2000);
             return result;
         }
 
         public void SendMessage(string message)
         {
+            Thread.Sleep(2000);
             Console.WriteLine(message);
         }
 
